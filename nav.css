@@ -1,0 +1,449 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.906);
+}
+div.header-tag{
+    justify-content: space-evenly;
+    color: black;
+    background-image: url(../image/exness\ background.jpg);
+    text-align: center;
+    height: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: scroll; */
+}
+div.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+button.click-1{
+    font-size: 10px;
+    color: white;
+    border:1px solid white;
+    height: 1.6rem;
+    width: 6rem;
+    border-radius: 15px;
+    background: transparent;
+}
+button.click-1:hover{
+    color: rgb(247, 224, 46);
+    border:1px solid rgb(247, 224, 46);
+}
+
+h2.main-text{
+    justify-items: center;
+    padding: 20px;
+    font-size: 55px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+span{
+    color: rgb(247, 224, 46);
+}
+div.main-icon-tag{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+p.sentence-tag{
+    color: white;
+font-size: 18px;
+padding: 20px;
+}
+button.click-2{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: rgb(247, 224, 46);
+    height: 3rem;
+    width: 12rem;
+    border-radius: 25px;
+    border: none;
+}
+
+div.main-icon-tag{
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+div.logo-tag{
+    display: flex;
+    gap: 1rem;
+    justify-items: 2px;
+}
+
+img.center-image{
+    height: 3rem;
+    width: 3rem;
+}
+
+p.sentence-tag2{
+    color: white;
+}
+/*  */
+div.sub-header{
+    color: white;
+    padding-top: 4rem;
+    text-align: center;
+}
+h3.main-text2{
+    padding-top: 2rem;
+    font-size:3rem;
+    padding-bottom: 1rem;
+}
+p.sentence-tag2{
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+div.click-on3{
+    /*  */
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+button.click-3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    background-color: rgb(247, 224, 46);
+    height: 4rem;
+    width: 14rem;
+    border-radius: 33.7px;
+    border: none;
+}
+/*  */
+div.container-1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+div.mid-contianer{
+    text-align: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.139);
+    border-radius: 2rem;
+    width: 22rem;
+    height: 18rem;
+    margin-bottom: 1rem;
+}
+img.icon-image{
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+h4.element-header{
+font-size: 1.3rem;
+padding-bottom: 0.7rem;
+}
+p.sentence-tag2{
+    font-size: 1rem;
+}
+/* 3  */
+h3.main-text2{
+    margin-top: 6rem;
+    margin-bottom: 1.6rem;
+    font-size: 3rem;
+}
+
+p.sentence-tag3{
+    font-size: 1.1rem;
+margin-bottom: 5.5rem;
+}
+
+div.phones{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: left;
+}
+
+div.phone-bar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.139);
+    border-radius: 0.5rem;
+    /* padding-left: 40px; */
+    width: 36rem;
+    height: 20.0rem;
+    margin-bottom: 1rem;
+    padding-top: 1.9rem;
+    gap: 2rem;
+   
+}
+div.phone-bar-shield{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.139);
+    border-radius: 0.5rem;
+    width: 36rem;
+    height: 20.0rem;
+    margin-bottom: 1rem;
+    padding-top: 1.9rem;
+    gap: 1rem;
+   
+}
+div.phone-bar2{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.139);
+    text-align: left;
+    width: 36rem;
+    height: 20.0rem;
+    padding-bottom: 1rem;
+    padding-top: 1.9rem;
+}
+
+div.side-text{
+    padding-top: 2.0rem;
+    padding-left: 2rem;
+}
+h4.element-header-2{
+    font-size: 1.3rem;
+    padding-bottom: 0.6rem;
+}
+p.sentence-tag44{
+    text-align: left;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+p.sentence-tag4{
+    text-align: left;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5.9rem;
+}
+i.digit-number{
+    color: white;
+    background-color: rgb(44, 42, 42);
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+i.digit-number2{
+    margin-top: 5rem;
+    color: white;
+    background-color: rgb(44, 42, 42);
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+img.phone-trade-image0{
+    height: 20rem;
+    padding-bottom: 2rem;
+
+}
+
+div.center-click-4{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+button.click-4{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    background-color: rgb(247, 224, 46);
+    height: 4rem;
+    width: 14rem;
+    border-radius: 33.7px;
+    border: none;
+}
+
+/* 4 */
+
+div.container-4{
+    /* justify-content: center; */
+    text-align: center;
+}
+h4.element-header-3{
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-size: 3.0rem;
+}
+p.sentence-tag2{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+}
+div.full-body-container{
+    background-color: rgba(0, 0, 0, 0.139);
+    align-content: center;
+    border-radius: 1rem;
+
+}
+div.container-5{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 5rem;
+}
+
+p.sentence-tag6{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: white;
+ text-align: center;
+}
+div.arrow-icon{
+    display: block;
+    justify-content: center;
+}
+img.image-arrow-icon{
+    margin-top: 2rem;
+    padding-left: 13rem;
+   height: 3rem;
+   width: 3rem;
+}
+div.mid-text{
+    text-align: center;
+}
+p.sentence-tag3{
+    font-size: 1.1rem;
+    color: white;
+}
+div.click-on3{
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+button.click3{
+    display: inline-block;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+        background-color: rgb(247, 224, 46);
+        height: 4rem;
+        width: 12rem;
+        border-radius: 33.7px;
+        border: none;
+}
+h2.main-text{
+font-size: 3.1rem;
+text-align: center;
+
+}
+div.middle-container2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+div.digit-image{
+    display: flex;
+    gap: 3rem;
+    margin-left: 3rem;
+}
+div.image-output{
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.139);
+    border-radius: 1rem;
+    height:30rem ;
+    width: 20rem;
+}
+img.center-image2{
+    margin-top: 4rem;
+    width: 10rem;
+    height: 10rem;
+}
+p.digit-number3{
+    margin-top: 3rem;
+    color: rgb(247, 224, 46);
+    background-color: rgb(44, 42, 42);
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+p.sub-header{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+/*  */
+div.header-tag2{
+    text-align: center;
+    color: white;
+}
+h2.sub-header{
+ margin-top:1rem;
+ margin-bottom: 1.2rem;
+ font-size: 2.8rem;
+}
+p.sentence-tag2{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+div.trade-image2{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+div.section-5{
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.139); */
+    background: rgba(29,29,32,1);
+    border-radius: 0.5rem;
+    width: 22rem;
+    height: 24rem;
+}
+img.trade-image-2{
+    width: 22rem;
+}
+img.trade-image-22{
+    width: 18rem;
+    height: 13.8rem;
+}
+
+
+
+button.click-5{
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    background-color: rgb(247, 224, 46);
+    height: 4rem;
+    width: 12rem;
+    border-radius: 33.7px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
